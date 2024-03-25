@@ -16,7 +16,7 @@ library(gt)
 # Argue about the format you have chosen to analyze large network data.
 
 # Read the txt file
-ep <- read.table("C:/Users/wangy/Documents/soc-Epinions1.txt", header = TRUE)
+ep <- read.table("yourwd/soc-Epinions1.txt", header = TRUE)
 head(ep,5)
 # Is it a data frame
 is.data.frame(ep)
